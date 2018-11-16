@@ -1,0 +1,2 @@
+# Chainhack
+Resources for Chainhack
