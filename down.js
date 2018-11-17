@@ -43,8 +43,8 @@ ipfs.on('ready', async () => {
         console.log(db.query((doc) => doc))
 
         // Get all docs by regex filter
-        console.log('All people with an \'a\' in their name:')
-        const lPeople = db.query((doc) => doc.name.match(/a/))
+        console.log('All people with an \'l\' in their name:')
+        const lPeople = db.query((doc) => doc.name.match(/l/))
         for (i = 0; i < lPeople.length; i++) {
             let lPerson = lPeople[i];
             console.log(lPerson);
